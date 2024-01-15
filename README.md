@@ -6,6 +6,7 @@ This Project is built using the following AWS services:<br/>
       AWS API Gateway --> to invoke/trigger the Lambda function using the REST API Gateway invoke url.<br/>
       AWS DynamoDB --> to store the result of a request which is the total bill in a DynamoDB table along with the current time.<br/>
       AWS Amplify --> to deploy the web application.<br/>
+      AWS IAM --> to configure the permissions for the Lambda function to interact with DynamoDB table.<br/>
 It also has HTML code for the front end.
       
     
